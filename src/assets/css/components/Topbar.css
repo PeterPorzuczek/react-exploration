@@ -1,0 +1,45 @@
+.bar {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: #f1f1f1;
+  margin: auto;
+  padding: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 120px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.00),
+  0.01px 6px rgba(0, 0, 0, 0.00),
+  0 8px 8px rgba(0, 0, 0, 0.00),
+  0.016px 16px rgba(0, 0, 0, 0.00),
+  8px 32px 32px rgba(0, 0, 0, 0.03),
+  8px 64px 64px rgba(0, 0, 0, 0.01);
+}
+.reduced {
+  transform: translate(0%, -14%);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.support__bar {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 2px;
+  padding: 2px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .bottom {
+    position: initial;
+    bottom: 5px;
+  }
+}
+
+

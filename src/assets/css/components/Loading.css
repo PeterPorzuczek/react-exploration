@@ -1,0 +1,46 @@
+
+.loader {
+  bottom: 40px;
+  position: relative;
+  margin: 100px 0 0 -12px;
+  left: 50%;
+  width: 54px;
+  height: 54px;
+}
+
+.loader div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.one {
+  border-top: 2px solid rgb(0, 0, 0);
+  animation: rotate-left 1s linear infinite;
+}
+
+.two {
+  border-bottom: 4px solid #111;
+  animation: rotate-right 3s linear infinite;
+}
+
+@keyframes rotate-left {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
