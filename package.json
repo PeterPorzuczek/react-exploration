@@ -7,6 +7,7 @@
     "ajv": "^6.4.0",
     "axios": "^0.18.0",
     "bootstrap": "^4.0.0",
+    "history": "^4.7.2",
     "popmotion": "^8.1.22",
     "popmotion-react": "^2.1.1",
     "prop-types": "^15.6.1",

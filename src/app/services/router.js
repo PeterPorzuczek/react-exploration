@@ -1,10 +1,13 @@
 import React from "react";
+import createHashHistory from "history/createHashHistory";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ModalContainer, ModalRoute } from "react-router-modal";
 import Main from "../../app/layouts/Main";
 import Home from "../../app/pages/Home";
 import About from "../../app/pages/About";
 import BeerModal from "../../app/containers/Beer";
+
+const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
 const AppRoute = ({ page: Page, layout: Layout, ...rest }) => (
   <Route
@@ -18,7 +21,7 @@ const AppRoute = ({ page: Page, layout: Layout, ...rest }) => (
 );
 
 const createRoutes = () => (
-  <Router>
+  <Router history={hashHistory}>
     <div>
       <Switch>
         <AppRoute exact path="/about" layout={Main} page={About} />

@@ -1,6 +1,10 @@
 React exploration
 ========
 App is the result of 3 day react coding.
+
+Live
+----
+https://peterporzuczek.github.io/react-exploration/
 # Preview
 <div>
 	<img src="https://i.imgur.com/sv5jRbs.gif" alt="app-preview" width="70%">
