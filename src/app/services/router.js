@@ -1,6 +1,6 @@
 import React from "react";
 import createHashHistory from "history/createHashHistory";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 import { ModalContainer, ModalRoute } from "react-router-modal";
 import Main from "../../app/layouts/Main";
 import Home from "../../app/pages/Home";
