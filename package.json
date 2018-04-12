@@ -2,6 +2,7 @@
   "name": "beerguru",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://peterporzuczek.github.io/react-exploration/",
   "dependencies": {
     "ajv": "^6.4.0",
     "axios": "^0.18.0",
@@ -28,7 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint --fix src"
+    "lint": "eslint --fix src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "cross-env": "^5.1.4",
@@ -39,6 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.1.0",
     "prettier": "^1.11.1"
   }
 }
