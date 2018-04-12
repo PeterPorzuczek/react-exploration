@@ -9,8 +9,8 @@ const Info = () => (
       <h1 className="Info-title">Welcome to React</h1>
     </header>
     <p className="Info-intro">
-      To edit this page go to <code>src/elements/components/Info.js</code> and
-      save to reload.
+      To edit this page go to <code>src/app/components/Info.js</code> and save
+      to reload.
     </p>
   </div>
 );
